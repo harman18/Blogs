@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+        <title>Home | HS</title>
+        <link rel = "icon" href = "images/logo.png" type = "image/x-icon">
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/blogs.css" rel="stylesheet" />
+        <link href="css/icofont/icofont.css" rel="stylesheet" />
+        <script src="js/script.js" defer="True"></script>
+        <script src="js/blogs.js" defer="True"></script>
+        
+    </head>
+    <body>
+        <style>
+            .contain-all{
+                background-color: transparent;
+            }
+            .header-navbar{
+                padding-bottom: 10px;
+            }
+            .footer-bottom{
+                position: fixed;
+                bottom: 0px;
+            }
+        </style>
+        <div class="contain-all">
+        <div class="contain-all-overlay"></div>
+        <div style="justify-content: center; background-color: transparent; position: fixed;top:0px;width:inherit;min-height:80px;display:flex;flex-wrap: wrap;overflow:hidden;clear: left;z-index:9;">
+            <header class="header-navbar">
+                <div class="header-navbar-box" style="padding-right: 0px;padding-left: 100px;"><div class="box" style="cursor: pointer;transition: 0.3s;"><img src="images/logo.png" onclick="window.location.href = 'https://harman18.github.io/pages/main.html'" width="60"; alt="logo"/></div></div>
+                <div class="header-navbar-box" style="padding-left:0px;text-align: right;">
+                    <span class="header-navbar-txt"><span class="header-navbar-txt-under" onclick="headerToggle();window.location.href = 'https://harman18.github.io/pages/main.html#main'"><i class="icofont-home" style="margin-right: 5px;"></i> HOME</span></span>
+                    <span class="header-navbar-txt"><span class="header-navbar-txt-under" onclick="headerToggle();window.location.href = 'https://harman18.github.io/pages/main.html#about_me'"><i class="icofont-ui-user" style="margin-right: 5px;"></i> ABOUT</span></span>
+                    <span class="header-navbar-txt" ><span class="header-navbar-txt-under" onclick="headerToggle();window.location.href = 'https://harman18.github.io/pages/main.html#projects_done'"><i class="icofont-ui-note" style="margin-right: 5px;"></i> PROJECTS </span>
+                        <!--<ul class="dropdown">
+                            <li class="dropdown-content">
+                                Tic Tac Toe
+                            </li>
+                            <li class="dropdown-content">
+                                Snake Game
+                            </li>
+                            <li class="dropdown-content">
+                                Code Editor
+                            </li>
+                        </ul>-->
+                    </span>
+                    <span class="header-navbar-txt"><span class="header-navbar-txt-under" onclick="headerToggle();window.location.href = 'https://harman18.github.io/Blogs/blogs.html'"><i class="icofont-blogger" style="margin-right:5px;"></i> BLOG POSTS</span></span>
+                    <span class="header-navbar-txt"><span class="btn-style-3"onclick="headerToggle();window.location.href = 'https://harman18.github.io/pages/main.html#contact_details'"><i class="icofont-contacts" style="margin-right:5px;"></i> CONTACT</span></span>
+                </div>
+                <div class="header-icon" onclick="headerToggle()" style="display: none">
+                    <div class="header-icon-bar1"></div>
+                    <div class="header-icon-bar2"></div>
+                    <div class="header-icon-bar3"></div>
+                </div>
+            </header>
+        </div>
+        <div class="window">
+            <div class="asd"></div>
+            <div class="contain">
+                <div class="main" style="padding:100px 0px 40px 0px;">
+                    <div class="main-sub">
+                        <div class="box">
+                            <div class="projects">
+                                <div class="projects-inner">
+                                    The Page will be Updated Soon.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer-bottom" style="padding: 0px;background-image: none;">
+            <div class="footer-bottom">
+                <div class="box temp-box" style="width:30%;text-align: left;padding-left:20px;opacity: 0.5;">
+                    <span style="font-weight: bold;font-size: 30px;font-family:cursive;"><img src="images/logo.png" width="50"; alt="logo"/></span>
+                </div>
+                <div class="box skills-mob" style="width:40%;word-break: keep-all;padding:10px 0px!important;">
+                    <span style="font-size:12px;font-weight:bold;word-spacing: 2px;letter-spacing: -0.4px;"><span style="vertical-align: middle;">MADE WITH </span><i class="icofont-ui-love" style="font-size: 25px;vertical-align: middle;"></i><span style="vertical-align: middle;"> BY HARMANJOT SINGH</span></span>
+                </div>
+                <div class="box temp-box" style="width:30%;text-align: right;">
+                    <img src="images/github-icon.png" style="filter: invert(100%);cursor:pointer;" width="30"  onclick="window.open('https:/github.com/harman18')" />
+                </div>  
+            </div>
+        </footer>
+        </div>
+    </body>
+</html>
